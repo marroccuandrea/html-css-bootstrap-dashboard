@@ -39,6 +39,10 @@ header form .form-control{
     text-decoration: none;
     color: #504E4E;
 }
+.left-nav a{
+    text-decoration: none;
+    color: white;
+}
 
 .icons i.fa-bell{
     color: #FF8F00;
@@ -47,4 +51,6 @@ header form .form-control{
 .left-nav{
     width: 65px;
     height: 100vh;
+    background-image: url(/img/sidebar-bg.png);
+    background-color: #051E34;
 }
