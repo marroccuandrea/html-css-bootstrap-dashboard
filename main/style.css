@@ -12,6 +12,7 @@ header{
 header form{
     margin: 0 20px;
     height: 70%;
+    flex-grow: 2;
 }
 
 header form i{
@@ -32,6 +33,11 @@ header form .form-control{
     object-fit: cover;
     width: 100%;
     height: 70%;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #504E4E;
 }
 
 .icons i.fa-bell{
