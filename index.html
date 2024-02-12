@@ -15,8 +15,8 @@
     <header>
         <div class="container-fluid d-flex h-100 debug align-items-center justify-content-between">
             <div class="logo h-100 d-flex justify-content-center align-items-center debug">
-                <img class="logo-mobile d-block d-lg-none" src="img/mobile-logo.png" alt="">
-                <img class="d-none d-lg-block" src="img/logo.svg" alt="">
+                <img class="logo-mobile d-block d-xl-none" src="img/mobile-logo.png" alt="">
+                <img class="d-none d-xl-block" src="img/logo.svg" alt="">
             </div>
             <form class="d-flex debug justify-content-center align-items-center " role="search">
                 <a href="#"><i class="fa-solid fa-magnifying-glass text-black"></i></a>
@@ -32,26 +32,63 @@
     </header>
 
     <main>
-        <div class="left-nav debug d-flex flex-column justify-content-between text-white">
-            <div class="icone-top debug d-flex flex-column align-items-center mt-4">
-                <div class="d-flex align-items-center">
-                <a href="#"><i class="fa-solid fa-house pb-3"></i></a>
-                <p>Home</p>
+        <div class="d-flex">
+            <div class="left-nav debug d-flex flex-column justify-content-between text-white">
+                <div class="icone-top debug d-flex flex-column align-items-center mt-4">
+                    <div class="d-flex align-items-center">
+                    <a href="#"><i class="fa-solid fa-house pb-3"></i></a>
+                    <p>Home</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                    <a href="#"><i class="fa-solid fa-chart-simple pb-3"></i></a>
+                    <p>Stats</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                    <a href="#"><i class="fa-solid fa-signal pb-3"></i></a>
+                    <p>Signals</p>
+                    </div>
                 </div>
-                <div class="d-flex align-items-center">
-                <a href="#"><i class="fa-solid fa-chart-simple pb-3"></i></a>
-                <p>Stats</p>
-                </div>
-                <div class="d-flex align-items-center">
-                <a href="#"><i class="fa-solid fa-signal pb-3"></i></a>
-                <p>Signals</p>
+                <div class="icone-btm debug d-flex flex-column align-items-center mb-4 ">
+                    <div class="d-flex">
+                    <a href="#"><i class="fa-solid fa-gear"></i></a>
+                    <p>Admin</p>
+                    </div>
                 </div>
             </div>
-            <div class="icone-btm debug d-flex flex-column align-items-center mb-4 ">
-                <div class="d-flex">
-                <a href="#"><i class="fa-solid fa-gear"></i></a>
-                <p>Admin</p>
+
+            <div class="right-nav w-100">
+                <div class="container-fluid debug text-white">
+                    <div class="row debug">
+                        <div id="studente" class="col-12 col-md-4 col-xl-3 d-flex align-items-baseline pt-2 debug">
+                            <p class="text pe-3">Nuovo Studente</p>
+                            <a href="#"><i id="plus" class="fa-solid fa-plus"></i></a>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-6 debug">
+                            <div class="boolean">
+                                <div class="badge-top d-flex align-items-baseline">
+                                    <h4 class="text">Boolean</h4>
+                                    <span class="badge">Piano blaze</span>
+                                </div>
+                                <div class="badge-btm d-flex align-items-baseline">
+                                    <p class="badge fs-6 fw-light">3 app</p>
+                                    <i class="fa-solid fa-angles-right pe-2"></i>
+                                    <a href="#"><i class="fa-solid fa-plus d-xl-none"></i></a>
+                                    <p id="desktop" class="badge fs-6 fw-light">Boolean mobile app</p>
+                                    <p id="desktop" class="badge fs-6 fw-light">Boolean web app</p>
+                                    <p id="desktop" class="badge fs-6 fw-light">Boolean blog app</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-xl-3 debug">
+                            <p>Studenti online negli ultimi 30 minuti</p>
+                            <h3>125</h3>
+                        </div>
+                    </div>
                 </div>
+
+
+
+                
             </div>
         </div>
     </main>

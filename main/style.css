@@ -49,7 +49,7 @@ header form .form-control{
 }
 
 .left-nav{
-    width: 65px;
+    width: 70px;
     height: 100vh;
     background-image: url(/img/sidebar-bg.png);
     background-color: #051E34;
@@ -59,11 +59,37 @@ header form .form-control{
     display: none;
 }
 
+main .container-fluid .row{
+    background-color: #1C73E7;
+}
+
+main .container-fluid .row a{
+    text-decoration: none;
+    color: white;
+}
+
+main .right-nav .row #plus{
+    padding: 10px 12px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+main .right-nav .row #desktop{
+    display: none;
+}
+
 /***********************************************
 
                 RESPONSIVE
 
 **********************************************/
+
+@media (min-width:768px){
+    .right-nav #studente{
+        order: 3;
+    }
+}
+
 
 @media (min-width: 1200px){
     .left-nav{
@@ -77,4 +103,13 @@ header form .form-control{
     .left-nav a{
         padding-right: 10px;
     }
+
+    .right-nav .grow{
+        flex-grow: 2;
+    }
+
+    main .right-nav .row #desktop{
+        display: block;
+    }
+
 }
