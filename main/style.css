@@ -58,6 +58,7 @@ header form .form-control{
     height: 100vh;
     background-image: url(/img/sidebar-bg.png);
     background-color: #051E34;
+    overflow: hidden;
 }
 
 .left-nav p{
@@ -72,6 +73,10 @@ header form .form-control{
     background-color: #1C73E7;
 }
 
+main .right-nav{
+    overflow-y: auto;
+    height: 100vh;
+}
 
 main .right-nav .row #plus{
     color: white;
