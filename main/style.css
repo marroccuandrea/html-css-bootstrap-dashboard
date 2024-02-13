@@ -1,3 +1,4 @@
+/*
 .debug{
     
     border: 1px solid black;
@@ -7,7 +8,7 @@
     border: 1px solid black;
     min-height: 60px;
 }
-
+*/
 header{
     height: 70px;
     background-color: #F8F9FA;
@@ -69,8 +70,20 @@ header form .form-control{
 
 
 main .right-nav .row #plus{
-    
+    color: white;
     text-decoration: none;
+}
+
+main .right-nav .badge{
+    background-color: #185BBB;
+    border-radius: 20px;
+}
+
+main .right-nav .badge-btm #plus-b{
+    color: white;
+    background-color: #185BBB;
+    border-radius: 50%;
+    padding: 0 5px;
 }
 
 main .right-nav .row #desktop{
