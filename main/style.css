@@ -94,6 +94,12 @@ main .container-fluid .table img{
 
 **********************************************/
 
+@media (max-width: 767px){
+    .canva{
+        width: 100% !important;
+    }
+}
+
 @media (min-width:768px){
     .right-nav #studente{
         order: 3;
