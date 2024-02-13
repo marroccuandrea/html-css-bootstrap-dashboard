@@ -11,7 +11,7 @@
 */
 header{
     height: 70px;
-    background-color: #F8F9FA;
+    background-color: #fff;
 }
 
 header form{
@@ -64,6 +64,10 @@ header form .form-control{
     display: none;
 }
 
+.left-nav #h-btn{
+    cursor: pointer;
+}
+
 .right-nav .container-fluid .row.blu{
     background-color: #1C73E7;
 }
@@ -94,7 +98,7 @@ main .right-nav .row #desktop{
 main .container-fluid .table img{
     width: 30px;
     height: 30px;
-    
+    border-radius: 50%;
 }
 
 .container-fluid ul li label{
