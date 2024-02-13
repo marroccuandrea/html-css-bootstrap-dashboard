@@ -83,7 +83,8 @@ main .right-nav .badge-btm #plus-b{
     color: white;
     background-color: #185BBB;
     border-radius: 50%;
-    padding: 0 5px;
+    padding: 3px 8px;
+    font-size: 0.8rem;
 }
 
 main .right-nav .row #desktop{
@@ -139,6 +140,10 @@ main .container-fluid .table img{
 
     main .right-nav .row #desktop{
         display: block;
+    }
+
+    main .right-nav .badge-btm #plus-b{
+        display: none;
     }
 
 }
