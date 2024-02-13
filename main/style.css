@@ -63,7 +63,7 @@ header form .form-control{
     display: none;
 }
 
-main .container-fluid .row{
+.right-nav .container-fluid .row.blu{
     background-color: #1C73E7;
 }
 
