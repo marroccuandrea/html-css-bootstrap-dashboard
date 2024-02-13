@@ -82,6 +82,12 @@ main .right-nav .row #desktop{
     display: none;
 }
 
+main .container-fluid .table img{
+    width: 30px;
+    height: 30px;
+}
+
+
 /***********************************************
 
                 RESPONSIVE
