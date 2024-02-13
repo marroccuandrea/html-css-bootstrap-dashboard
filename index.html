@@ -61,7 +61,16 @@
                     <div class="row blu debug">
                         <div id="studente" class="col-12 col-md-4 col-xl-3 d-flex align-items-baseline pt-2 debug">
                             <p class="text pe-3">Nuovo Studente</p>
-                            <a href="#"><i id="plus" class="fa-solid fa-plus"></i></a>
+                            <button type="button" class="btn btn-outline-light" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i id="plus" class="fa-solid fa-plus"></i></button>
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  ...
+                                </div>
+                              </div>
                         </div>
                         <div class="col-12 col-md-4 col-xl-6 debug">
                             <div class="boolean">

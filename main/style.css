@@ -69,11 +69,8 @@ header form .form-control{
 
 
 main .right-nav .row #plus{
-    padding: 10px 12px;
-    border: 1px solid white;
-    border-radius: 5px;
+    
     text-decoration: none;
-    color: white;
 }
 
 main .right-nav .row #desktop{
