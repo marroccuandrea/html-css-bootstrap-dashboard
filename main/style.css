@@ -55,10 +55,13 @@ header form .form-control{
 
 .left-nav{
     width: 70px;
-    height: 100vh;
+    height: calc(100vh - 70px);
     background-image: url(/img/sidebar-bg.png);
     background-color: #051E34;
-    overflow: hidden;
+}
+
+main{
+    height: calc(100vh - 70px);
 }
 
 .left-nav p{
@@ -75,7 +78,7 @@ header form .form-control{
 
 main .right-nav{
     overflow-y: auto;
-    height: 100vh;
+    height: calc(100vh - 70px);
 }
 
 main .right-nav .row #plus{
