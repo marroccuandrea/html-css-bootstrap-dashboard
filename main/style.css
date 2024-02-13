@@ -3,6 +3,10 @@
     border: 1px solid black;
 }
 
+.deb-col{
+    border: 1px solid black;
+    min-height: 60px;
+}
 
 header{
     height: 70px;
