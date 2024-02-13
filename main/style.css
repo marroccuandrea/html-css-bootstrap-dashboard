@@ -67,15 +67,13 @@ header form .form-control{
     background-color: #1C73E7;
 }
 
-main .container-fluid .row a{
-    text-decoration: none;
-    color: white;
-}
 
 main .right-nav .row #plus{
     padding: 10px 12px;
     border: 1px solid white;
     border-radius: 5px;
+    text-decoration: none;
+    color: white;
 }
 
 main .right-nav .row #desktop{
@@ -85,6 +83,7 @@ main .right-nav .row #desktop{
 main .container-fluid .table img{
     width: 30px;
     height: 30px;
+    
 }
 
 
